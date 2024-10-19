@@ -1,0 +1,12 @@
+# Pull Request Labeler GitHub Action Configuration: https://github.com/marketplace/actions/labeler
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: 'docs/**'
+
+kernel:
+  - changed-files:
+      - any-glob-to-any-file: 'kernel/**'
+
+kernel-api-change:
+  - changed-files:
+    - any-glob-to-any-file: 'kernel/kernel-api/**'
